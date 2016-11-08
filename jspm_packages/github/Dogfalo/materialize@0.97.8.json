@@ -1,0 +1,13 @@
+{
+  "main": "js/materialize",
+  "format": "global",
+  "meta": {
+    "js/materialize.js": {
+      "deps": [
+        "jquery",
+        "../css/materialize.css!"
+      ],
+      "format": "global"
+    }
+  }
+}

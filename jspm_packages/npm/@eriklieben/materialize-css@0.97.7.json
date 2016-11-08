@@ -1,0 +1,14 @@
+{
+  "main": "dist/js/materialize.min",
+  "format": "cjs",
+  "meta": {
+    "dist/js/materialize.min.js": {
+      "deps": [
+        "jquery",
+        "../css/materialize.min.css!"
+      ],
+      "exports": "$",
+      "format": "global"
+    }
+  }
+}

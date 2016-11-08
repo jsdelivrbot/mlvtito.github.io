@@ -1,0 +1,9 @@
+{
+  "main": "index.js",
+  "format": "amd",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

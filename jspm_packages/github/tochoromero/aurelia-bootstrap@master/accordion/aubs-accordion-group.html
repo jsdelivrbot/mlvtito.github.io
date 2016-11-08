@@ -1,0 +1,16 @@
+<template>
+    <div class.bind="isBootstrapVersion(3) ? 'panel ' + panelClass : 'card' ">
+        <div role="tab" class.bind="isBootstrapVersion(3) ? 'panel-heading' : 'card-header'">
+            <h5 class.bind="isBootstrapVersion(3) ? 'panel-title' : 'mb-0'">
+                <a href="javascript:void(0)" innerHTML.bind="title" click.delegate="toggle()">
+                </a>
+            </h5>
+        </div>
+
+        <div class="collapse" role="tabpanel" ref="$collapse">
+            <div class.bind="isBootstrapVersion(3) ? 'panel-body' : 'card-block'">
+                <slot></slot>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,12 @@
+{
+  "main": "js/bootstrap.js",
+  "meta": {
+    "js/bootstrap.js": {
+      "deps": [
+        "jquery"
+      ],
+      "exports": "$",
+      "format": "global"
+    }
+  }
+}
